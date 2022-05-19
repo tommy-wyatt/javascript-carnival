@@ -21,6 +21,8 @@ function randomMole() {
     mole.id = 'whack'
     mole.onclick = whackedMole
     randCell.appendChild(mole)
+    mole.style.width = '70px'
+    mole.style.height = '70px'
 }
 
 randomMole()
